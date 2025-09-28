@@ -1,0 +1,11 @@
+def reverse(llist):
+    if not llist:
+        return None
+    tail=llist
+    while tail.next:
+        tail=tail.next
+    current=tail
+    while current:
+        current.prev,current.next=current.next,current.prev
+        current=current.next
+    return tail
