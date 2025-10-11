@@ -1,0 +1,30 @@
+from typing import List
+from math import gcd
+
+class Solution:
+    def replaceNonCoprimes(self, nums: List[int]) -> List[int]:
+        
+        def lcm(a,b):
+            return a * b // gcd(a, b)
+
+        stack: List[int] = []
+
+        for num in nums:
+            stack.append(num)  
+
+           
+            while len(stack) >= 2:
+                b = stack.pop()
+                a = stack.pop()
+                g = gcd(a, b)
+
+                if g > 1:
+                    
+                    stack.append(lcm(a, b))
+                else:
+                    
+                    stack.append(a)
+                    stack.append(b)
+                    break  
+
+        return stack  
