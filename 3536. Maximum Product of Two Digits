@@ -1,0 +1,10 @@
+class Solution:
+    def maxProduct(self, n: int) -> int:
+        stack=[]
+        while n:
+            stack.append(n%10)
+            n//=10
+            stack.sort()
+        return stack[-1]*stack[-2]
+    
+        
