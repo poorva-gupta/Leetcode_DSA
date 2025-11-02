@@ -1,0 +1,11 @@
+class Solution:
+    def lastStoneWeight(self, stones: List[int]) -> int:
+        stack=stones[:]
+        while len(stack)>1:
+            stack.sort()
+            y=stack.pop()
+            x=stack.pop()
+            if y!=x:
+                stack.append(y-x)
+
+        return stack[0] if stack else 0
