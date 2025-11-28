@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0078-subsets](https://github.com/poorva-gupta/Leetcode_DSA/tree/master/0078-subsets) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/poorva-gupta/Leetcode_DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/poorva-gupta/Leetcode_DSA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
 ## Hash Table
@@ -27,4 +28,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0532-k-diff-pairs-in-an-array](https://github.com/poorva-gupta/Leetcode_DSA/tree/master/0532-k-diff-pairs-in-an-array) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/poorva-gupta/Leetcode_DSA/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/poorva-gupta/Leetcode_DSA/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
